@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import SearchScreen from "./components/SearchScreen";
+import DeckScreen from "./components/DeckScreen";
+import SlideshowScreen from "./components/SlideshowScreen";
+import EditDeckScreen from "./components/EditDeckScreen";
+import HomeScreen from "./components/HomeScreen";
+import NavBar from "./components/NavBar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <NavBar />
+            <Routes>
+                <Route path={"/"} element={<HomeScreen />} />
+                <Route path={"/search"} element={<SearchScreen />} />
+                <Route path="/deck" element={<DeckScreen />} />
+                <Route path="/slideshow" element={<SlideshowScreen />} />
+            </Routes>
+        </>
+    );
 }
 
 export default App;

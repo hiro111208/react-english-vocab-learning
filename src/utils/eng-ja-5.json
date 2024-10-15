@@ -1,0 +1,42 @@
+[
+    {
+        "Lemma": "the",
+        "Japanese\n(Short)": "ザ",
+        "Commentary": "特定の. 場面や文脈からそれとわかるものの前. 日付. 唯一のもの",
+        "Pronunciation": "ðə",
+        "Display": true,
+        "Level": 1
+    },
+    {
+        "Lemma": "be",
+        "Japanese\n(Short)": "ある",
+        "Commentary": "である. ある. (助動詞)受け身を作る",
+        "Pronunciation": "bi",
+        "Display": true,
+        "Level": 1
+    },
+    {
+        "Lemma": "of",
+        "Japanese\n(Short)": "の",
+        "Commentary": "の. (前置詞)",
+        "Pronunciation": "əv",
+        "Display": true,
+        "Level": 1
+    },
+    {
+        "Lemma": "and",
+        "Japanese\n(Short)": "と",
+        "Commentary": "と. そして. (接続詞)そうすれば",
+        "Pronunciation": "ənd",
+        "Display": true,
+        "Level": 2
+    },
+    {
+        "Lemma": "to",
+        "Japanese\n(Short)": "へ",
+        "Commentary": "へ. (前置詞 到達点)",
+        "Pronunciation": "tɪ",
+        "Display": true,
+        "Level": 2
+    }
+]
